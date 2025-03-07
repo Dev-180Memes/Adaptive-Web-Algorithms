@@ -52,7 +52,7 @@ export default function Home() {
         <p>Current Network Speed: {networkSpeed ? `${networkSpeed} Mbps` : "Unknown"}</p>
         <p>Selected Video Quality: {videoQuality}</p>
         <video width="600" controls>
-          <source src={`/videos/sample_${videoQuality}.mp4`} type="video/mp4" />
+          <source src={`/sample_${videoQuality}.mp4`} type="video/mp4" />
           Your browser does not support the video tag.
         </video>
         <h2>Performance Logs</h2>
